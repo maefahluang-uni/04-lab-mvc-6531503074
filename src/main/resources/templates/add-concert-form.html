@@ -7,6 +7,17 @@
 </head>
 <body>
     <h1>Add Concert</h1>
-    <!-- add form for adding concert-->
+    <!-- create form for adding concert-->
+    <form action="/concerts" method="POST">
+        <label for="title">Title</label><br>
+        <input type="text" id="title" name="title"><br>
+        <label for="description">Description</label><br>
+        <input type="text" id="description" name="description"><br>
+        <label for="date">Date</label><br>
+        <input type="date" id="date" name="date"><br>
+        <label for="venue">performer</label><br>
+        <input type="text" id="performer" name="performer"><br>
+        <input type="submit" value="Add concert">
+    </form>
 </body>
 </html>
